@@ -45,3 +45,33 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppHotel.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/home/rladeira/NETMaui/MauiAppHotel/Views/ContratacaoHospedagem.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppHotel.Views.ContratacaoHospedagem.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ContratacaoHospedagem.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ContratacaoHospedagem.xaml
+
+[/home/rladeira/NETMaui/MauiAppHotel/Views/HospedagemContratada.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppHotel.Views.HospedagemContratada.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/HospedagemContratada.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/HospedagemContratada.xaml
+
+[/home/rladeira/NETMaui/MauiAppHotel/Views/Quartos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppHotel.Views.Quartos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Quartos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Quartos.xaml
+
+[/home/rladeira/NETMaui/MauiAppHotel/Views/Sobre.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppHotel.Views.Sobre.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Sobre.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Sobre.xaml
+
+[/home/rladeira/NETMaui/MauiAppHotel/Views/Start_page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppHotel.Views.Start_page.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Start_page.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Start_page.xaml

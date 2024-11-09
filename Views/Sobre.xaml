@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="FALSE"
+             Frame.HasShadow="TRUE"
+             BackgroundColor="{StaticResource Gray100}">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="0">
+            <!-- <Frame
+                BackgroundColor="MidNightBlue"> -->
+            <VerticalStackLayout
+                BackgroundColor="MidNightBlue"
+                VerticalOptions="CenterAndExpand"
+                Padding="5"
+                Spacing="5">
+                <Label
+                    Text="Sobre o App Hotel"
+                    HorizontalOptions="Center"
+                    FontSize="25"
+                    FontFamily="OpenSans-Semibold"
+                    TextColor="white"/>
+                <Frame
+                    BackgroundColor="White">
+                    <VerticalStackLayout>
+                        <HorizontalStackLayout
+                            HorizontalOptions="CenterAndExpand"
+                            Padding="0"
+                            Spacing="5">
+                            <Frame
+                                BackgroundColor="#FFFFF8">
+                                <Image
+                                    Source="dotnet_bot.png"
+                                    HeightRequest="90"
+                                    Aspect="AspectFit"/>
+                            </Frame>
+                            <Frame
+                                BackgroundColor="#FFFFF8">
+                                <VerticalStackLayout>
+                                    <Label
+                                        FontFamily="OpenSans-Semibold"
+                                        FontSize="15"
+                                        HorizontalOptions="Center"
+                                        Text="App Hotel"/>
+                                    <Label
+                                        Text="V-1.0"
+                                        FontFamily="OpenSans-Semibold"
+                                        FontSize="15"
+                                        HorizontalOptions="Center"/>
+                                    <Label
+                                        Text="Ricardo Ladeira"
+                                        TextColor="Blue"
+                                        FontFamily="PlaywriteGBS-Italic"
+                                        FontSize="15"
+                                        HorizontalOptions="Center"/>
+                                    <VerticalStackLayout
+                                        Spacing="10"
+                                        Padding="10">
+                                        <Button
+                                            Text="Voltar"
+                                            Clicked="Voltar_Clicked"
+                                            Padding="10"/>
+                                    </VerticalStackLayout>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </HorizontalStackLayout>
+                        <Label
+                            TextColor="Black"
+                            HorizontalOptions="Center"
+                            FontSize="15"
+                            FontFamily="OpenSans-Semibold"/>
+                        <Label
+                            Text="www.bigwhaledatamining.com"
+                            TextColor="Red"
+                            HorizontalOptions="Center"
+                            FontSize="20"
+                            FontFamily="OpenSans-Semibold"/>
+                        <Label
+                            TextColor="Black"
+                            HorizontalOptions="Center"
+                            FontSize="15"
+                            FontFamily="OpenSans-Semibold"/>
+                        <Label
+                            Text="App Hotel é um produto"
+                            TextColor="Black"
+                            HorizontalOptions="Center"
+                            FontSize="15"
+                            FontFamily="OpenSans-Semibold"/>
+                        <Label
+                            Text="© 2024 BigWhale DataMining Software"
+                            TextColor="Black"
+                            HorizontalOptions="Center"
+                            FontSize="15"
+                            FontFamily="OpenSans-Semibold"/>
+                    </VerticalStackLayout>
+                    <Frame.Shadow>
+                        <Shadow Brush="Black"
+                                Offset="10,10"
+                                Opacity="0.8"/>
+                    </Frame.Shadow>
+                </Frame>
+            </VerticalStackLayout>
+            <!-- </Frame> -->
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

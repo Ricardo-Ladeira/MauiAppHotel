@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Start_page"
+             Title="Start page"
+             NavigationPage.HasNavigationBar="FALSE"
+             BackgroundColor="{StaticResource Gray100}">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="hotel_entrance.png"
+                HeightRequest="500"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Park Central Hotel"/>
+            <Label Text="Bem-Vindo ao Park Central Hotel"
+                   TextColor="{StaticResource Primary}"
+                   FontFamily="PlaywriteGBS-Italic"
+                   FontSize="40"
+                   HorizontalTextAlignment="Center"/>
+            <HorizontalStackLayout>
+                <Button Text="Nossos Quartos"
+                        HorizontalOptions="Center"
+                        Clicked="Quartos_Clicked"
+                        Margin="30"/>
+                <Button Text="Sobre o App"
+                        Margin="30"
+                        Clicked="Sobre_Clicked"
+                        HorizontalOptions="Center"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

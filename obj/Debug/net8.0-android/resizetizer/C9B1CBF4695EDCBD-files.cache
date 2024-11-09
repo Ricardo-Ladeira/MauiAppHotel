@@ -11,6 +11,14 @@ obj/Debug/net8.0-android/resizetizer/r/mipmap-hdpi/appicon_round.png
 obj/Debug/net8.0-android/resizetizer/r/mipmap-hdpi/appicon.png
 obj/Debug/net8.0-android/resizetizer/r/drawable-xhdpi/dotnet_bot.png
 obj/Debug/net8.0-android/resizetizer/r/drawable-mdpi/dotnet_bot.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/superluxo_room.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/hotel_entrance.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/crise_room.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/dotnet_bot_old.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/jawa_4dois.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/luxo_room.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/parkcentral_logo.png
+obj/Debug/net8.0-android/resizetizer/r/drawable/single_room.png
 obj/Debug/net8.0-android/resizetizer/r/drawable-xxxhdpi/dotnet_bot.png
 obj/Debug/net8.0-android/resizetizer/r/drawable-xxhdpi/dotnet_bot.png
 obj/Debug/net8.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png

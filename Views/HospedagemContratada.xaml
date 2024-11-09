@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.HospedagemContratada"
+             Title="HospedagemContratada"
+             NavigationPage.HasNavigationBar="FALSE"
+             BackgroundColor="{StaticResource Gray100}">
+
+    <ScrollView>
+        <VerticalStackLayout
+            VerticalOptions="CenterAndExpand"
+            Padding="30,0"
+            Spacing="25">
+            <Image Source="parkcentral_logo.png"
+                   WidthRequest="420">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Suite Super Luxo"
+                   TextColor="{StaticResource Primary}"
+                   FontFamily="PlaywriteGBS-Italic"
+                   FontSize="40"
+                   HorizontalTextAlignment="Center"/>
+
+            <Frame Margin="1">
+                <HorizontalStackLayout>
+                    <Label Text="Adultos: "/>
+                    <Label Text="2"
+                           TextColor="{StaticResource Primary}"/>
+
+                    <Label Text="Crianças: "/>
+                    <Label Text="1"
+                           TextColor="{StaticResource Primary}"/>
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame Margin="10">
+                <Grid ColumnDefinitions="*,*,*"
+                      RowDefinitions="Auto,Auto">
+
+                    <Label Text="Check-in: "
+                           Grid.Row="0"
+                           Grid.Column="0"/>
+                    <Label Text="Check-out: "
+                           Grid.Row="0"
+                           Grid.Column="1"/>
+                    <Label Text="Estadia:"
+                           Grid.Row="0"
+                           Grid.Column="2"/>
+
+                    <Label Text="27/05/2024"
+                           Grid.Row="1"
+                           Grid.Column="0"/>
+                    <Label Text="30/05/2024"
+                           Grid.Row="2"
+                           Grid.Column="1"/>
+                    <Label Text="3"
+                           Grid.Row="3"
+                           Grid.Column="2"/>
+                </Grid>
+            </Frame>
+            <Frame Margin="10">
+                <HorizontalStackLayout>
+                    <Label Text="Valor Total: "/>
+                    <Label Text="R$ 750,00"/>
+                </HorizontalStackLayout>
+            </Frame>
+            <Button Text="Voltar"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
